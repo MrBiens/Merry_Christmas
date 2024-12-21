@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'mountains_of_christmasregular';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/mountainsofchristmas-webfont.woff2') format('woff2'),
+        url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/mountainsofchristmas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@keyframes fadeInBackground {
+    0% {
+        background-image: url('https://thuthuatnhanh.com/wp-content/uploads/2022/04/Hinh-nen-dien-thoai-bau-troi-dem-day-sao.jpg'); 
+        background-size: cover;    }
+    100% {
+        background-color: transparent; 
+        background-image: url('https://hocmay.vn/wp-content/uploads/2022/11/background-noel-giang-sinh-6.jpg'); 
+        background-size: cover;
+    }
+}
+
+body {
+    background-color: black; 
+    background-size: cover;
+    animation: fadeInBackground 6.5s ease-in-out forwards; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url('https://hocmay.vn/wp-content/uploads/2022/11/background-noel-giang-sinh-6.jpg');
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+svg {
+    width: 90%;
+    height: 90%;
+    visibility: hidden;
+
+}
+
+#endMessage {
+    font-family: mountains_of_christmasregular;
+    font-size: 2rem;
+    text-anchor: middle;
+    text-align: center;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    opacity: 0;
+    letter-spacing: 1px;
+}
+
+a {
+    color: white;
+    text-decoration: underline dotted #FFFFFF;
+}
